@@ -28,5 +28,3 @@ git add . => 현재 나의 위치 기준 모든 파일과 폴더
 
 ## `git commit` 
 - staging area에 있는 변경사항을 커밋하여 스냅샷을 찍는 명령어
-
-dd
