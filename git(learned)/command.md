@@ -29,6 +29,18 @@ git add . => 현재 나의 위치 기준 모든 파일과 폴더
 ## `git commit` 
 - staging area에 있는 변경사항을 커밋하여 스냅샷을 찍는 명령어
 
+## `git push`
+- 찍은 스냅샷을 원격저장소에 업로드
+```
+git push {file_name} {master}
+```
+
+## `git pull`
+- 원격저장소에서 변경된 코드를 불러오기
+```
+git pull {file_name} {master}
+```
+
 ## `git log`
 - 커밋의 히스토리를 조회
     - option
