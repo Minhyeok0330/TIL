@@ -1,3 +1,5 @@
+# 2/10(월)
+
 # 리눅스 기본명령어
 
 ## 0.리눅스 명령어의 기본 형식
@@ -41,3 +43,4 @@ command [options] [arguments]
 
 ### cat (concatenate)
  - 파일의 내용을 출력.
+
