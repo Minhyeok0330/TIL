@@ -44,18 +44,38 @@
        
 ```
 - input = 기본적인 입력값 받는 tag id, name= key, value와 같다고 생각하면 됨
+- input 뒤에 오는 옵션들을 attribute라고 얘기한다.
+### atrribute 종류 
+type:입력값의 형태(타이틀, 날짜, 제출키, etc...)
+name:key 값을 설정해 줌 
+id:input에 고유한 값을 지정 label for랑 이어지게 만드는 연결고리
 - label for = input으로 이어지게 만들어주는 tag
 
 
 - 체크박스 선택할 수 있게 만드는 tag
 - checkbox는 다중 선택, radio는 단일 선택
 ```
-
-<input type="checkbox" value="1">
-<input type="checkbox" value="2">
-<input type="checkbox" value="3">
-
-<input type="radio" value="1" name="num">
-<input type="radio" value="2" name="num">
-<input type="radio" value="3" name="num">
+</div>
+        <hr>
+            <h3>샌드위치 선택</h3>
+            <input type="radio" name="menu" value="egg" id="egg">
+            <label for="egg">에그마요</label>
+            <input type="radio" name="menu" value="blt" id="blt">
+            <label for="blt">BLT</label>
+        <hr>
+            <h3>빵 사이즈</h3>
+            <input type="number" min="15" max="30" step="15">
+        <hr>
+            <h3>빵 종류</h3>
+            <select name="bread" id="">
+                <option value="honey">허니오트</option>
+                <option value="flat">플랫브레드</option>
+            </select>
+        <hr>
+            <h3>야채</h3>
+            <input type="checkbox" id="lettuce" name="lett">
+            <label for="lettuce">양상추</label>
+            <input type="checkbox" id="tomato" name="tom">
+            <label for="tomato">토마토</label>
 ```
+label은 이름 지정하는거고 for는 이름에 접근해도 연결 할 수 있게 만들어줘요.
