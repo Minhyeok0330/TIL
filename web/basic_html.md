@@ -27,7 +27,7 @@
 ```<img scr="이미지 경로" alt="사진설명">```
 
  ## form
-- input tag 사용자에게 입력값을 받을 수 있는 태그
+- input tag 사용자에게 입력값을 받을 수 있는 태그(form이 없으면 출력만 함)
 ```
 <form action="">
         <label for="title">Name : </label>
