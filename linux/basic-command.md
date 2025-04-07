@@ -44,3 +44,4 @@ command [options] [arguments]
 ### cat (concatenate)
  - 파일의 내용을 출력.
 
+too manythings....
